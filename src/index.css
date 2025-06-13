@@ -2,7 +2,7 @@
 
 /* General Styles */
 body {
-    padding: 1rem;
+    padding: 1rem 0rem 0rem 0rem;
     background: #FCFCFC;
 }
 
@@ -11,15 +11,7 @@ h1, .section-heading {
     color: #383838;
 }
 
-.section-heading {
-    margin-bottom: 1.5rem;
-}
-
-h3 {
-    font-family: "STIX Two Text", serif;
-}
-
-p, h4 {
+p, h3, h4 {
     font-family: 'Inter', sans-serif;
 }
 

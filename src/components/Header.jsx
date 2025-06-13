@@ -35,7 +35,7 @@ export default function Header() {
   }, [menuOpen]);
 
   return (
-   <nav className='flex items-center justify-between py-2 md:p-5 lg:px-10'>
+   <nav className='flex items-center justify-between py-2 px-5 lg:px-10'>
         <Link to='/'>
             <img className="h-9 lg:h-12" src="/logo.png" alt="svg-post-logo" />
         </Link>

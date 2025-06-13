@@ -28,7 +28,7 @@ export default function ServicesSection() {
         opacity: 1,
         y:0,
         duration: 0.8,
-        stagger: 0.3,
+        stagger: 0.1,
         ease: "power3",
         scrollTrigger: {
           trigger: '#services',
@@ -41,19 +41,20 @@ export default function ServicesSection() {
 
 
   return (
-    <section id='services' className="flex flex-col w-full pl-5 " ref={servicesRef}>
+    <section id='services' className="flex flex-col w-full " ref={servicesRef}>
      <div className='flex items-center justify-center w-full'>
-        <div className=''>
-        <h2 className='section-heading text-4xl md:text-5xl'>Our <span className='italic'> Services</span></h2>
-        
-        <PrimaryButton
-            btnText= "View All"
-            link="/"
-        />
-      </div>
+        <div className='lg:flex lg:justify-between lg:w-[70%]'>
+          <h2 className='section-heading text-4xl md:text-5xl lg:text-6xl services-content'>Our <span className='italic'> Services</span></h2>
+          <div className='services-content'>
+             <PrimaryButton
+              btnText= "View All"
+              link="/"
+          />
+          </div>
+        </div>
      </div>
 
-      <div className="services-content mt-3 lg:gap-5 card-container py-10 flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 lg:flex-col lg:items-center">
+      <div className="ml-5 services-content mt-3 lg:gap-5 card-container py-10 flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 lg:flex-col lg:items-center">
        <div className="flex gap-5 lg:flex lg:w-full lg:gap-30 lg:justify-center">
           <div className="snap-start shrink-0 w-64">
             <Card 
@@ -79,13 +80,13 @@ export default function ServicesSection() {
             />
           </div>
 
-          {/* <div className="snap-start shrink-0 w-64">
+          <div className="snap-start shrink-0 w-64">
             <Card 
               icon={<PiMailboxFill />}
               title="US Mailbox Service"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
-          </div> */}
+          </div>
        </div>
 
         <div className="flex gap-5 lg:flex lg:w-full lg:gap-30 lg:justify-center">
@@ -113,13 +114,13 @@ export default function ServicesSection() {
             />
           </div>
 
-          {/* <div className="snap-start shrink-0 w-64">
+          <div className="snap-start shrink-0 w-64">
             <Card 
               icon={<BsPostageHeartFill />}
               title="Philately"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

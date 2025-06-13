@@ -62,10 +62,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id='hero' className='relative flex flex-col gap-10 py-25 md:gap-20 h-[80vh] items-center md:py-30'>
+    <section id='hero' className='relative flex flex-col gap-10 py-35 h-[80vh] lg:h-[95vh] items-center'>
         <div className="hero-text flex flex-col items-center" ref={heroContent}>
             <h2 className="secondary-heading hero-content text-xs mb-3 md:mb-5 text-center md:text-sm ">Mail Made Simple</h2>
-            <h1 className='hero-content text-5xl text-center md:text-8xl'>Send It, Post It <br />We 
+            <h1 className='hero-content text-5xl text-center md:text-7xl lg:text-8xl'>Send It, Post It <br />We 
                 <span className='italic relative inline-block mr-2 ml-2 md:mr-4 md:ml-4'>
                     Deliver
                     <svg
@@ -85,10 +85,10 @@ export default function Hero() {
                 </span> 
                 It
             </h1>
-            <p className='hero-content text-xs text-center md:hidden w-[70%] mt-8'> Blanditiis reiciendis vitae et ex id officia sapiente maxime expedita at ullam tempore.</p>
+            <p className='hero-content text-xs md:text-sm text-center w-[70%] mt-8 lg:mt-15'> Blanditiis reiciendis vitae et ex id officia sapiente maxime expedita at ullam tempore.</p>
         </div>
 
-        <div className='flex gap-3 md:gap-8' ref={heroBtns}>
+        <div className='flex gap-3 md:gap-5 lg:gap-8' ref={heroBtns}>
             <div className="hero-btn">
                  <PrimaryButton 
                 btnText = "Track a Package"
