@@ -44,7 +44,7 @@ export default function ServicesSection() {
     <section id='services' className="flex flex-col w-full " ref={servicesRef}>
      <div className='flex items-center justify-center w-full'>
         <div className='lg:flex lg:justify-between lg:w-[70%]'>
-          <h2 className='section-heading text-4xl md:text-5xl lg:text-6xl services-content'>Our <span className='italic'> Services</span></h2>
+          <h2 className='section-heading text-4xl mb-3 md:text-5xl lg:text-6xl services-content'>Our <span className='italic'> Services</span></h2>
           <div className='services-content'>
              <PrimaryButton
               btnText= "View All"

@@ -53,7 +53,7 @@ export default function Header() {
 
         {/* Sliding Mobile Menu */}
         <div
-            className={`fixed top-0 right-0 h-full w-full max-w-sm bg-[#001A6E] text-white p-5 z-50 transition-transform duration-300 ease-in-out transform ${
+            className={`fixed top-0 right-0 h-full w-full max-w-sm bg-[#020F37] text-white p-5 z-50 transition-transform duration-300 ease-in-out transform ${
             menuOpen ? "translate-x-0" : "translate-x-full"
             }`}>
             <IoMdClose className="text-3xl ml-auto cursor-pointer" onClick={toggleMenu} />
