@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* General Styles */
+body {
+    padding: 1rem;
+    background: #FCFCFC;
+}
+
+h1, .section-heading {
+    font-family: "STIX Two Text", serif;
+    color: #383838;
+}
+
+.section-heading {
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-family: "STIX Two Text", serif;
+}
+
+p, h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+.button, li, a {
+    font-family: 'Inter', sans-serif;
+}
+
+.secondary-heading {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #001A6E;
+}
