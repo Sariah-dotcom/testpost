@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function Card(props) {
   return (
-    <div className="group lg:w-[22rem] cursor-pointer lg:h-[25rem] bg-[#F6F6F6] rounded-lg shadow-md flex flex-col gap-5 px-5 py-10 hover:-rotate-1 cursor:pointer hover:bg-[#001A6E] hover:scale-105 transition-transform duration-300">
+    <div className="group lg:w-[22rem] cursor-pointer lg:h-[25rem] bg-[#F6F6F6] rounded-lg shadow-md flex flex-col gap-5 px-5 py-10 hover:-rotate-1 cursor:pointer hover:bg-[#001A6E] hover:scale-101 transition-transform duration-300">
       <div className="text-5xl text-gray-900 group-hover:text-white">{props.icon}</div>
 
       <div className="flex flex-col gap-5">

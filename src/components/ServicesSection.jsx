@@ -42,9 +42,10 @@ export default function ServicesSection() {
 
   return (
     <section id='services' className="flex flex-col w-full pl-5 " ref={servicesRef}>
-     <div className='flex justify-center w-full'>
-        <div className='flex justify-between items-center w-full'>
-        <h2 className='section-heading text-3xl md:text-5xl'>Our <span className='italic'> Services</span></h2>
+     <div className='flex items-center justify-center w-full'>
+        <div className=''>
+        <h2 className='section-heading text-4xl md:text-5xl'>Our <span className='italic'> Services</span></h2>
+        
         <PrimaryButton
             btnText= "View All"
             link="/"
@@ -52,7 +53,7 @@ export default function ServicesSection() {
       </div>
      </div>
 
-      <div className="services-content lg:gap-5 card-container py-10 flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 lg:flex-col lg:items-center">
+      <div className="services-content mt-3 lg:gap-5 card-container py-10 flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 lg:flex-col lg:items-center">
        <div className="flex gap-5 lg:flex lg:w-full lg:gap-30 lg:justify-center">
           <div className="snap-start shrink-0 w-64">
             <Card 

@@ -26,7 +26,7 @@ export default function Header() {
         {
             opacity: 1,
             x: 0,
-            duration: 0.8,
+            duration: 0.5,
             stagger: 0.2,
             ease: "power3"
         }
